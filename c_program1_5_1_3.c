@@ -5,12 +5,11 @@ int main()
         int c;
         printf("EOF is %d:",EOF);
         printf("\n");
-        c = getchar();
+	scanf("%d",&c);
         while(c != EOF )
         {
-        printf("%d",c);putchar(c);
-        c = getchar();
-        }
+        printf("%d-p",c);putchar(c);
+	scanf("%d",&c);
+	}
         return 0;
 }
-    
